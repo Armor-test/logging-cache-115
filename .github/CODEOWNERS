@@ -1,0 +1,36 @@
+# CODEOWNERS file for logging-cache-115
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-api @Armor-test/dept-data @Armor-test/team-notifications
+
+# Directory ownership
+/web/ @Armor-test/dept-reporting @Armor-test/dept-reliability @Armor-test/squad-cache
+/test/ @Armor-test/team-governance @Armor-test/dept-release @Armor-test/unit-cloud
+/pages/ @Armor-test/dept-test @Armor-test/team-logging @Armor-test/squad-mobile
+/vendor/ @Armor-test/team-frontend @Armor-test/squad-tooling @Armor-test/dept-reliability
+/helpers/ @Armor-test/grp-payments @Armor-test/dept-release
+/core/ @Armor-test/dept-identity @Armor-test/team-logging @Armor-test/squad-reporting
+/dist/ @Armor-test/grp-api @Armor-test/unit-design
+/config/ @Armor-test/dept-billing @Armor-test/grp-reporting
+/shared/ @Armor-test/squad-database @Armor-test/team-logging
+/data/ @Armor-test/dept-logging @Armor-test/grp-api
+/components/ @Armor-test/squad-payments @Armor-test/dept-test
+
+# File type ownership
+*.jsx @Armor-test/squad-ux @Armor-test/team-research
+*.config @Armor-test/dept-identity @Armor-test/dept-data
+*.h @Armor-test/squad-search @Armor-test/dept-identity @Armor-test/dept-automation
+*.gradle @Armor-test/squad-tooling @Armor-test/grp-search @Armor-test/team-notifications
+*.lock @Armor-test/squad-product @Armor-test/unit-devops @Armor-test/grp-integration
+*.tsx @Armor-test/squad-performance @Armor-test/dept-ui @Armor-test/team-core
+*.graphql @Armor-test/dept-reliability @Armor-test/team-governance
+*.scala @Armor-test/squad-cache @Armor-test/grp-ui
+*.go @Armor-test/squad-mobile @Armor-test/unit-devops @Armor-test/grp-api
+*.html @Armor-test/dept-security @Armor-test/squad-cloud
+*.properties @Armor-test/grp-reporting @Armor-test/squad-database
+*.c @Armor-test/squad-qa @Armor-test/squad-cache @Armor-test/dept-release
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
